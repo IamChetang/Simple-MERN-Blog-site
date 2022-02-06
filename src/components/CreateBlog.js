@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { addDoc, collection } from 'firebase/firestore';
-import { db, auth } from '../firebase-configarations';
+import { db, auth } from '../firebase-configuration';
 
 function CreateBlog({ isAuth }) {
   // declaring states
   const [title, setTitle] = useState('');
   const [blogText, setBlogText] = useState('');
-  //here i have used date as string
+  //here i have used date as string because wasn't working with datepicker
   const [date, setDate] = useState('');
 
   // assigning blogs collection to ref

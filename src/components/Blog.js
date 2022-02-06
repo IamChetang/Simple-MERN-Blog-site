@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getDocs, collection, deleteDoc, doc } from 'firebase/firestore';
-import { auth, db } from '../firebase-configarations';
+import { auth, db } from '../firebase-configuration';
 import logo from '../logo.jpeg';
 import { MdDeleteForever } from 'react-icons/md';
 

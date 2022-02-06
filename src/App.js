@@ -8,9 +8,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog from './components/Blog';
 import CreateBlog from './components/CreateBlog';
 import Login from './components/Login';
-// importing firebase configaration
+// importing firebase configuration
 import { signOut } from 'firebase/auth';
-import { auth } from './firebase-configarations';
+import { auth } from './firebase-configuration';
 
 function App() {
   // declaring a states
